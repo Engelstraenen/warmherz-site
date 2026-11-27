@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WARMHERZ · Wo geht Ihre Wärme hin? Heizung & Wärmepumpe Bielefeld (Demo)</title>
+<meta name="description" content="Finden Sie mit der Wärmebild-Linse die Wärmelecks, sehen Sie Ihr Haus im Wärmebild, den Umbau als Film und Ihre Förderung als Thermometer. Demo von PROJEKT EX.">
+<meta name="theme-color" content="#121424">
+<link rel="preload" href="assets/fonts/ibm-plex-sans-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" imagesrcset="assets/img/b1-1280.webp 1280w, assets/img/b1-1920.webp 1920w, assets/img/b1-2560.webp 2560w, assets/img/b1-3584.webp 3584w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/style.css?v=202611270947">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3CradialGradient id='g'%3E%3Cstop offset='0' stop-color='%23fff4c2'/%3E%3Cstop offset='.35' stop-color='%23ffc83d'/%3E%3Cstop offset='.65' stop-color='%23ff6a00'/%3E%3Cstop offset='1' stop-color='%233b1a8a'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='15' fill='url(%23g)'/%3E%3C/svg%3E">
+</head>
+<body class="start">
+<header class="kopf">
+  <a class="marke" href="index.html"><i></i>WARMHERZ</a>
+  <nav aria-label="Hauptmenü">
+    <a href="thermografie.html">Wärmebild</a>
+    <a href="waermepumpe.html">Wärmepumpe</a>
+    <a class="lang" href="heizungstausch.html">Heizungstausch</a>
+    <a href="foerderung.html">Förderung</a>
+    <a class="lang" href="index.html#k8">Bewertungen</a>
+    <a href="jobs.html">Jobs</a>
+    <a class="btn" href="foto-check.html">Foto-Check</a>
+  </nav>
+  <button class="burger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+</header>
+<div class="menue" role="dialog" aria-label="Menü">
+  <button class="zu" aria-label="Menü schließen">×</button>
+  <a href="index.html">Start</a>
+  <a href="thermografie.html">Wärmebild-Check</a>
+  <a href="heizungstausch.html">Heizungstausch</a>
+  <a href="heizlast.html">Heizlast</a>
+  <a href="ablauf.html">Ablauf</a>
+  <a href="waermepumpe.html">Wärmepumpe</a>
+  <a href="foerderung.html">Förderung</a>
+  <a href="fussbodenheizung.html">Fußbodenheizung</a>
+  <a href="wartung.html">Wartung &amp; Notdienst</a>
+  <a href="index.html#k8">Bewertungen</a>
+  <a href="jobs.html">Jobs &amp; Ausbildung</a>
+  <a href="foto-check.html">Foto-Check</a>
+</div>
+<aside class="skala" aria-label="Kapitel nach Temperatur">
+  <span class="lbl">+40°</span>
+  <div class="bar"><div class="zeiger"><span class="grad">−10°</span></div></div>
+  <span class="lbl">−10°</span>
+</aside>
+
+<div class="buehne" aria-hidden="true">
+  <div class="szene" data-k="k1" data-lecks='[{"x":75,"y":40,"name":"Dach & Traufe","wert":"15–20 %"},{"x":72,"y":57,"name":"Fenster","wert":"20–25 %"},{"x":54,"y":28,"name":"Rollladenkasten","wert":"Wärmebrücke"},{"x":44,"y":62,"name":"Haustür & Laibung","wert":"Wärmebrücke"},{"x":72,"y":77,"name":"Sockel & Keller","wert":"5–11 %"}]'>
+    <img class="foto" src="assets/img/b1-1280.webp" srcset="assets/img/b1-1280.webp 1280w, assets/img/b1-1920.webp 1920w, assets/img/b1-2560.webp 2560w, assets/img/b1-3584.webp 3584w" sizes="100vw" alt="" fetchpriority="high" loading="eager"><img class="waerme" src="assets/img/b1t-1280.webp" srcset="assets/img/b1t-1280.webp 1280w, assets/img/b1t-1920.webp 1920w, assets/img/b1t-2560.webp 2560w, assets/img/b1t-3584.webp 3584w" sizes="100vw" alt="" loading="lazy" decoding="async">
+  </div>
+  <div class="szene" data-k="k2" data-push><img class="foto" src="assets/img/b2-1280.webp" srcset="assets/img/b2-1280.webp 1280w, assets/img/b2-1920.webp 1920w, assets/img/b2-2560.webp 2560w" sizes="100vw" alt="" loading="lazy" decoding="async"></div>
+  <div class="szene wisch" data-k="k3"><img class="foto" src="assets/img/b3-1280.webp" srcset="assets/img/b3-1280.webp 1280w, assets/img/b3-1920.webp 1920w, assets/img/b3-2560.webp 2560w, assets/img/b3-3584.webp 3584w" sizes="100vw" alt="" loading="lazy" decoding="async"><img class="waerme" src="assets/img/b3t-1280.webp" srcset="assets/img/b3t-1280.webp 1280w, assets/img/b3t-1920.webp 1920w, assets/img/b3t-2560.webp 2560w, assets/img/b3t-3584.webp 3584w" sizes="100vw" alt="" loading="lazy" decoding="async"><i class="kante"></i></div>
+  <div class="szene flach" data-k="k4"><div class="flaeche raster-bg"></div></div>
+  <div class="szene ohne-verlauf" data-k="k5"><video class="foto" muted playsinline preload="auto" poster="assets/img/b3-1280.webp" data-gross="assets/video/f1.mp4?v=202611270947" data-klein="assets/video/f1-m.mp4?v=202611270947"><source src="assets/video/f1-m.mp4?v=202611270947" media="(max-width: 800px)"><source src="assets/video/f1.mp4?v=202611270947"></video></div>
+  <div class="szene" data-k="k6" data-push><video class="foto" muted playsinline preload="auto" poster="assets/img/b6-1280.webp" data-gross="assets/video/f3.mp4?v=202611270947" data-klein="assets/video/f3-m.mp4?v=202611270947"><source src="assets/video/f3-m.mp4?v=202611270947" media="(max-width: 800px)"><source src="assets/video/f3.mp4?v=202611270947"></video></div>
+  <div class="szene flach" data-k="kf"><div class="flaeche glut"></div></div>
+  <div class="szene teilung" data-k="k7"><img class="foto" src="assets/img/b7-1280.webp" srcset="assets/img/b7-1280.webp 1280w, assets/img/b7-1920.webp 1920w, assets/img/b7-2560.webp 2560w, assets/img/b7-3584.webp 3584w" sizes="100vw" alt="" loading="lazy" decoding="async"><img class="waerme" src="assets/img/b7t-1280.webp" srcset="assets/img/b7t-1280.webp 1280w, assets/img/b7t-1920.webp 1920w, assets/img/b7t-2560.webp 2560w, assets/img/b7t-3584.webp 3584w" sizes="100vw" alt="" loading="lazy" decoding="async"><div class="teiler"><b>⟷</b></div><span class="tag-l">Foto</span><span class="tag-r">Wärmebild</span></div>
+  <div class="szene" data-k="k8"><video class="foto" muted playsinline loop autoplay preload="metadata" poster="assets/img/b8-1280.webp"><source src="assets/video/f2-m.mp4?v=202611270947" media="(max-width: 800px)"><source src="assets/video/f2.mp4?v=202611270947"></video></div>
+</div>
+<div class="linse" aria-hidden="true"><b></b></div>
+<div class="linse-tipp">Wärmebild-Linse: über das Haus fahren</div>
+
+<main>
+  <!-- K1 · Einstieg: die Linse als Spiel -->
+  <section class="kap buehne-greif" id="k1" data-szene="k1" data-temp="-10" data-name="Wärmelecks" data-ueber="zoom" data-zoom="72,57">
+    <div class="text">
+      <p class="mono gelb hero-rein">Wärmebild · Bielefeld · −10 °C</p>
+      <h1 class="hero-rein">Wo geht Ihre <span class="gelb">Wärme</span> hin?</h1>
+      <p class="hero-rein">Fahren Sie mit der Linse über das Haus. Fünf Stellen verraten sich.</p>
+      <div class="hero-rein leck-box">
+        <div class="lecks"><i></i><i></i><i></i><i></i><i></i><span><b data-leck-zahl>0</b>/5 gefunden</span></div>
+        <div class="leck-chips" aria-live="polite"></div>
+        <p class="alle-lecks" hidden><a class="btn" href="thermografie.html">Alle gefunden · Wärmebild-Check buchen</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- K2 · Wir messen zuerst: Fahrt auf die Kamera, Fakten fliegen rein -->
+  <section class="kap" id="k2" data-szene="k2" data-temp="-6" data-name="Messen" data-ueber="zoom" data-zoom="52,40" style="min-height:220vh">
+    <div class="text klebt">
+      <p class="mono gelb">Wir messen zuerst</p>
+      <h2>Erst das Wärmebild.<br>Dann die Heizung.</h2>
+      <div class="fakten-flug">
+        <div data-ab="0.12-2"><b>&lt; 5 °C</b><span>draußen, abends</span></div>
+        <div data-ab="0.32-2"><b>45 min</b><span>Rundgang mit Kamera</span></div>
+        <div data-ab="0.52-2"><b>1 Bericht</b><span>mit allen Bildern</span></div>
+      </div>
+      <a class="mehr" href="thermografie.html">So läuft der Wärmebild-Check →</a>
+    </div>
+  </section>
+
+  <!-- K3 · Vorher: Regler = Zeitmaschine, das Wärmebild wischt mit dem Alter über den Keller -->
+  <section class="kap" id="k3" data-szene="k3" data-temp="-2" data-name="Vorher" data-ueber="wisch">
+    <div class="text klebt">
+      <p class="mono gelb">Vorher · Ihr Heizkeller</p>
+      <h2 class="rein">Der Keller heizt mit.<br>Leider nur sich selbst.</h2>
+      <div class="alter rein">
+        <label for="heiz-bj">Wann wurde Ihre Heizung eingebaut?</label>
+        <output id="heiz-alt">25 Jahre</output>
+        <input id="heiz-bj" type="range" min="1980" max="2025" value="2001">
+        <div class="jahre"><span>1980</span><span id="heiz-jahr">2001</span><span>2025</span></div>
+        <p id="heiz-msg"></p>
+      </div>
+      <p class="quelle">Schornsteinfeger-Erhebung 2025 (ZIV): über 86 % der Öl- und rund 66 % der Gaskessel ohne Brennwert sind älter als 20 Jahre.</p>
+    </div>
+  </section>
+
+  <!-- K4 · Heizlast: Ihr Haus als Wärmebild-Grafik, Regler ändern Farben und Wärmeströme sofort -->
+  <section class="kap haus-kap" id="k4" data-szene="k4" data-temp="4" data-name="Heizlast" data-ueber="fade">
+    <div class="haus-buehne">
+      <div class="haus-steuer">
+        <p class="mono gelb">Heizlast</p>
+        <h2 class="rein">Wie viel Wärme braucht Ihr Haus?</h2>
+        <div class="feld"><label for="hl-flaeche">Wohnfläche <output id="hl-flaeche-out">140 m²</output></label><input id="hl-flaeche" type="range" min="80" max="260" step="5" value="140"></div>
+        <div class="feld"><label>Baujahr</label><div class="wahl" id="hl-bj"><button data-v="1977" aria-pressed="true">bis 1977</button><button data-v="1994" aria-pressed="false">1978–94</button><button data-v="2001" aria-pressed="false">1995–2001</button><button data-v="2015" aria-pressed="false">2002–15</button><button data-v="neu" aria-pressed="false">ab 2016</button></div></div>
+        <div class="feld"><label>Gedämmt, neue Fenster?</label><div class="wahl" id="hl-san"><button data-v="0" aria-pressed="true">nein</button><button data-v="1" aria-pressed="false">ja</button></div></div>
+        <div class="hl-ergebnis"><span class="ergebnis" id="hl-kw">0 kW</span><span class="mono" id="hl-wm2"></span></div>
+        <p class="quelle">Richtwerte je Baualter, ersetzt keine Heizlastberechnung nach DIN EN 12831.</p><a class="mehr" href="heizlast.html">Warum die Heizlast alles entscheidet →</a>
+      </div>
+      <figure class="haus" id="heizlast" aria-label="Ihr Haus als Wärmebild-Grafik">
+        <canvas class="haus-ströme"></canvas>
+        <svg viewBox="0 0 600 560" role="img" aria-label="Haus mit Räumen, eingefärbt nach Wärmebedarf">
+          <g class="raeume">
+            <g class="raum" data-a=".13" data-v="-.05"><rect x="70" y="230" width="140" height="120"/><text x="140" y="282">Schlafen</text><text class="w" x="140" y="314"></text></g>
+            <g class="raum" data-a=".12" data-v="0"><rect x="210" y="230" width="120" height="120"/><text x="270" y="282">Kind 1</text><text class="w" x="270" y="314"></text></g>
+            <g class="raum" data-a=".12" data-v="0"><rect x="330" y="230" width="110" height="120"/><text x="385" y="282">Kind 2</text><text class="w" x="385" y="314"></text></g>
+            <g class="raum" data-a=".10" data-v=".1"><rect x="440" y="230" width="90" height="120"/><text x="485" y="282">Bad</text><text class="w" x="485" y="314"></text></g>
+            <g class="raum" data-a=".30" data-v=".04"><rect x="70" y="350" width="220" height="120"/><text x="180" y="402">Wohnen</text><text class="w" x="180" y="434"></text></g>
+            <g class="raum" data-a=".12" data-v="0"><rect x="290" y="350" width="130" height="120"/><text x="355" y="402">Küche</text><text class="w" x="355" y="434"></text></g>
+            <g class="raum" data-a=".11" data-v="-.12"><rect x="420" y="350" width="110" height="120"/><text x="475" y="402">Flur</text><text class="w" x="475" y="434"></text></g>
+          </g>
+          <g class="linien">
+            <path pathLength="1" d="M30 230 L300 50 L570 230 Z"/>
+            <path pathLength="1" d="M70 230 V470 H530 V230"/>
+            <path pathLength="1" d="M70 350 H530 M210 230 V350 M330 230 V350 M440 230 V350 M290 350 V470 M420 350 V470"/>
+            <path pathLength="1" class="boden" d="M0 470 H600"/>
+            <path pathLength="1" class="keller" d="M70 470 V540 H530 V470"/>
+          </g>
+          <text class="keller-t" x="300" y="514">Heizraum</text>
+        </svg>
+      </figure>
+    </div>
+  </section>
+
+  <!-- K5 · Film: Umbau Heizkeller (Vorher → Arbeit → Ergebnis) -->
+  <section class="kap" id="k5" data-szene="k5" data-temp="10" data-name="Umbau" data-film data-ueber="portal" data-anker="58,55" style="min-height:320vh">
+    <div class="text">
+      <p class="mono gelb">Der Umbau</p>
+      <h2>Drei Tage.<br>Ein neuer Keller.</h2>
+      <ol class="film-schritte">
+        <li data-ab="0-0.36"><b>1</b><span>Ausbau</span></li>
+        <li data-ab="0.36-0.55"><b>2</b><span>Raum vorbereiten</span></li>
+        <li data-ab="0.55-0.86"><b>3</b><span>Hydraulik</span></li>
+        <li data-ab="0.86-1.01"><b>4</b><span>Inbetriebnahme</span></li>
+      </ol>
+      <a class="mehr" href="ablauf.html">Der Ablauf Tag für Tag →</a>
+    </div>
+  </section>
+
+  <!-- K6 · Nachher: Wärmepumpe läuft an (Scroll-Film), Außentemperatur-Regler → Wärme-Blöcke -->
+  <section class="kap" id="k6" data-szene="k6" data-temp="15" data-name="Nachher" data-film data-ueber="fade" style="min-height:240vh">
+    <div class="text klebt">
+      <p class="mono gelb">Nachher · die Wärmepumpe</p>
+      <h2 class="rein">Aus kalter Luft<br>wird warmes Haus.</h2>
+      <div class="cop glas rein" id="wetter">
+        <div class="cop-kopf"><label for="w-regler">Außentemperatur</label><output id="w-temp">−2 °C</output></div>
+        <input id="w-regler" type="range" min="-15" max="15" step="1" value="-2" aria-label="Außentemperatur">
+        <div class="cop-reihe"><span class="strom" title="1 kWh Strom">1 kWh<br>Strom</span><span class="pfeil">→</span><span class="bloecke" id="w-bloecke"></span></div>
+        <p class="cop-satz">ergibt ca. <b class="gelb" id="w-cop">3,4</b> kWh Wärme</p>
+        <p class="quelle"><button class="live" id="w-live" type="button">Bielefeld live</button> <span id="w-stand"></span> Richtwert Luft/Wasser bei 35 °C Vorlauf. Im Bestand gemessen: Jahresarbeitszahl Ø 3,3 (Fraunhofer ISE 2024).</p>
+      </div>
+      <a class="mehr rein" href="waermepumpe.html">Wie die Wärmepumpe aus Kälte Wärme macht →</a>
+    </div>
+  </section>
+
+  <!-- K6b · Förderung als Thermometer -->
+  <section class="kap foerder-kap" id="kfoerder" data-szene="kf" data-temp="18" data-name="Förderung" data-ueber="fade">
+    <div class="foerder-buehne">
+      <div class="foerder-text">
+        <p class="mono gelb">Förderung · KfW 458</p>
+        <h2 class="rein">Bis zu 70 % zahlt der Staat.</h2>
+        <div class="countdown rein" id="countdown"></div>
+        <p class="unter">bis der Bonus am 01.02.2027 von 16 auf 12 % sinkt</p>
+        <div id="foerder" class="foerder-regler">
+          <div class="feld"><label for="fr-kosten">Was kostet Ihre neue Heizung? <output id="fr-kosten-out"></output></label><input id="fr-kosten" type="range" min="15000" max="45000" step="500" value="32000"></div>
+          <div class="feld"><label>Wohnen Sie selbst im Haus?</label><div class="wahl" id="fr-selbst"><button data-v="1" aria-pressed="true">ja</button><button data-v="0" aria-pressed="false">vermietet</button></div></div>
+          <div class="feld"><label>Haushaltseinkommen (zu versteuern)</label><div class="wahl" id="fr-eink"><button data-v="30" aria-pressed="false">bis 30 T€</button><button data-v="40" aria-pressed="false">bis 40 T€</button><button data-v="50" aria-pressed="false">bis 50 T€</button><button data-v="hoch" aria-pressed="true">mehr</button></div></div>
+        </div>
+      </div>
+      <div class="thermo-wrap">
+        <svg class="thermo" viewBox="0 0 160 560" aria-hidden="true">
+          <rect class="rohr" x="52" y="16" width="56" height="440" rx="28"/>
+          <g class="teile"><rect id="th-g" x="60" width="40"/><rect id="th-k" x="60" width="40"/><rect id="th-e" x="60" width="40"/></g>
+          <circle class="kugel" cx="80" cy="490" r="48"/>
+          <g class="striche"></g>
+        </svg>
+        <ul class="thermo-legende" id="fr-teile"></ul>
+        <div class="thermo-zahl"><span class="mono">Zuschuss <span id="fr-satz"></span></span><b class="ergebnis" id="fr-zuschuss"></b></div>
+        <div class="kostenbalken"><i id="fr-bz"></i><span>Ihr Anteil <b id="fr-eigen"></b></span></div>
+      </div>
+      <p class="quelle foerder-quelle">kfw.de/458, Stand 21.07.2026. Förderfähig max. 28.000 € (1. Wohneinheit), Deckel 70 %, bei geringem Einkommen 80 %. Keine Rechts- oder Steuerberatung. <a class="mehr" href="foerderung.html">Alles zur Förderung →</a></p>
+    </div>
+  </section>
+
+  <!-- K7 · 21°: geteiltes Bild, Scrollen oder Ziehen verschiebt die Trennlinie -->
+  <section class="kap teil-kap" id="k7" data-szene="k7" data-temp="21" data-name="21 Grad" data-ueber="fade" style="min-height:220vh">
+    <div class="text klebt">
+      <div class="zahl-gross" data-zaehl="21" data-nach="°">0°</div>
+      <h2 class="rein">Warm bis in die Zehen.</h2>
+      <p class="rein">Fußbodenheizung braucht nur 35 °C Vorlauf. Ziehen Sie die Linie: Der ganze Boden ist gleich warm.</p>
+      <a class="mehr rein" href="fussbodenheizung.html">Fußbodenheizung nachrüsten →</a>
+    </div>
+  </section>
+
+  <!-- K8 · Team / Recruiting + Bewertungen (Film im Hintergrund) -->
+  <section class="kap" id="k8" data-szene="k8" data-temp="30" data-name="Team" style="min-height:230vh">
+    <div class="text" style="max-width:720px">
+      <p class="mono gelb">Das Team</p>
+      <h2 class="rein">Hier fehlt noch jemand.</h2>
+      <div class="kinetik"><span>Ausbildung</span><span>Feste Crew</span><span>Ab 3.400 €*</span><small>* Beispielwert dieser Demo. Ausbildungsvergütung nach SHK-Tarif NRW.</small></div>
+      <div class="glas bewerbung" id="bewerbung">
+        <div style="display:flex;justify-content:space-between;align-items:center"><b>Bewerben in 60 Sekunden</b><span class="uhr">60 s</span></div>
+        <div class="schritt an"><span>Was willst du machen?</span><div class="wahl"><button data-stelle="azubi">Ausbildung</button><button data-stelle="monteur">Monteur/in</button><button data-stelle="quereinstieg">Quereinstieg</button><button data-stelle="kundendienst">Kundendienst</button></div></div>
+        <div class="schritt"><span>Erfahrung?</span><div class="wahl"><button data-erf="0">keine</button><button data-erf="1">1–3 Jahre</button><button data-erf="2">mehr</button></div></div>
+        <div class="schritt"><form style="display:grid;gap:10px"><input type="text" required placeholder="Vorname" aria-label="Vorname"><input type="tel" required placeholder="Handynummer" aria-label="Handynummer"><button class="btn">Abschicken</button></form></div>
+        <div class="schritt"><b class="gelb">Danke. Geschafft in <span id="bw-zeit"></span>.</b><span>Wir rufen dich innerhalb von 24 Stunden zurück. (Demo: nichts wurde gesendet.)</span></div>
+      </div>
+      <a class="mehr" href="jobs.html">Alle Jobs, Lohn und Ausbildung →</a>
+      <div class="glas rein stimmen-box">
+        <span class="mono">Was Kunden sagen</span>
+        <div class="stimmen">
+          <div class="stimme"><p>„Sie kamen mit der Wärmebildkamera, bevor überhaupt über Geräte geredet wurde.“</p><small>Beispiel · noch keine echte Bewertung</small></div>
+          <div class="stimme"><p>„Drei Tage Keller-Baustelle, danach sauberer als vorher.“</p><small>Beispiel · noch keine echte Bewertung</small></div>
+          <div class="stimme"><p>„Der Notdienst war um zwei Uhr nachts da. Bei minus acht Grad.“</p><small>Beispiel · noch keine echte Bewertung</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- K9 · Foto-Check: Fotos fliegen ins Handy -->
+  <section class="flaeche-kap" id="k9" data-szene="k8" data-temp="37" data-name="Foto-Check">
+    <div class="raster" style="align-items:center">
+      <div class="s6" style="display:grid;gap:18px">
+        <p class="mono gelb">Zum Schluss · Ihr Haus</p>
+        <h2 class="rein">Foto schicken.<br>Angebot bekommen.</h2>
+        <p class="rein">3 bis 5 Fotos reichen. Ohne Termin.</p>
+        <div class="zeile" style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="foto-check.html">Foto-Check starten</a><a class="btn leer" href="tel:+495210000000">Notdienst 24/7</a></div>
+      </div>
+      <div class="s6 flug-feld">
+        <div class="flug f1"><img src="assets/img/b3-1280.webp" srcset="assets/img/b3-1280.webp 1280w, assets/img/b3-1920.webp 1920w, assets/img/b3-2560.webp 2560w, assets/img/b3-3584.webp 3584w" sizes="(max-width:900px) 100vw, 50vw" alt="Foto vom Heizkeller" loading="lazy" decoding="async"><span>Heizkeller</span></div>
+        <div class="flug f2"><img src="assets/img/b1-1280.webp" srcset="assets/img/b1-1280.webp 1280w, assets/img/b1-1920.webp 1920w, assets/img/b1-2560.webp 2560w, assets/img/b1-3584.webp 3584w" sizes="(max-width:900px) 100vw, 50vw" alt="Foto vom Haus" loading="lazy" decoding="async"><span>Haus</span></div>
+        <div class="flug f3"><img src="assets/img/b7-1280.webp" srcset="assets/img/b7-1280.webp 1280w, assets/img/b7-1920.webp 1920w, assets/img/b7-2560.webp 2560w, assets/img/b7-3584.webp 3584w" sizes="(max-width:900px) 100vw, 50vw" alt="Foto vom Wohnzimmer" loading="lazy" decoding="async"><span>Heizkörper</span></div>
+        <div class="handy"><div class="bild"><div class="inhalt"><b>Ihr Vorab-Check</b><div class="handy-fotos"><i></i><i></i><i></i></div><span class="handy-status"><b id="fc-n">0</b>/3 Fotos</span><a class="btn" href="foto-check.html" style="justify-content:center">Senden</a></div></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="fuss">
+  <div class="spalten">
+    <div><a class="marke" href="index.html"><i></i>WARMHERZ</a><small>Heizung · Wärmepumpe · Bad. Bielefeld seit 1987.<br>Demo-Webseite von PROJEKT EX, fiktiver Betrieb.</small></div>
+    <div><b>Leistungen</b><a href="thermografie.html">Wärmebild-Check</a><a href="heizungstausch.html">Heizungstausch</a><a href="waermepumpe.html">Wärmepumpe</a><a href="fussbodenheizung.html">Fußbodenheizung</a><a href="wartung.html">Wartung &amp; Notdienst</a></div>
+    <div><b>Planen</b><a href="heizlast.html">Heizlast</a><a href="ablauf.html">Ablauf</a><a href="foerderung.html">Förderung</a><a href="foto-check.html">Foto-Check</a></div>
+    <div><b>Kontakt</b><a href="tel:+495210000000">0521 000 000 (Demo)</a><a href="foto-check.html">Anfrage per Foto</a><a href="jobs.html">Jobs &amp; Ausbildung</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+  </div>
+  <small>Alle Zahlen zu Förderung und Effizienz mit Stand-Datum und Quelle, ohne Gewähr. Personen, Firma und Bewertungen sind Beispiele dieser Demo.</small>
+</footer>
+<div class="demo-hinweis">Demo · fiktiv</div>
+<script src="assets/js/linse.js?v=202611270947" defer></script>
+<script src="assets/js/main.js?v=202611270947" defer></script>
+</body>
+</html>

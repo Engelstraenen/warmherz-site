@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Foto-Check · WARMHERZ (Demo)</title>
+<meta name="description" content="Drei bis fünf Fotos schicken, Einschätzung am nächsten Werktag bekommen.">
+<meta name="theme-color" content="#121424">
+<link rel="preload" href="assets/fonts/ibm-plex-sans-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="assets/css/style.css?v=202611270947">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3CradialGradient id='g'%3E%3Cstop offset='0' stop-color='%23fff4c2'/%3E%3Cstop offset='.35' stop-color='%23ffc83d'/%3E%3Cstop offset='.65' stop-color='%23ff6a00'/%3E%3Cstop offset='1' stop-color='%233b1a8a'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='15' fill='url(%23g)'/%3E%3C/svg%3E">
+</head>
+<body class="unter">
+<header class="kopf">
+  <a class="marke" href="index.html"><i></i>WARMHERZ</a>
+  <nav aria-label="Hauptmenü">
+    <a href="thermografie.html">Wärmebild</a>
+    <a href="waermepumpe.html">Wärmepumpe</a>
+    <a class="lang" href="heizungstausch.html">Heizungstausch</a>
+    <a href="foerderung.html">Förderung</a>
+    <a class="lang" href="index.html#k8">Bewertungen</a>
+    <a href="jobs.html">Jobs</a>
+    <a class="btn" href="foto-check.html">Foto-Check</a>
+  </nav>
+  <button class="burger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+</header>
+<div class="menue" role="dialog" aria-label="Menü">
+  <button class="zu" aria-label="Menü schließen">×</button>
+  <a href="index.html">Start</a>
+  <a href="thermografie.html">Wärmebild-Check</a>
+  <a href="heizungstausch.html">Heizungstausch</a>
+  <a href="heizlast.html">Heizlast</a>
+  <a href="ablauf.html">Ablauf</a>
+  <a href="waermepumpe.html">Wärmepumpe</a>
+  <a href="foerderung.html">Förderung</a>
+  <a href="fussbodenheizung.html">Fußbodenheizung</a>
+  <a href="wartung.html">Wartung &amp; Notdienst</a>
+  <a href="index.html#k8">Bewertungen</a>
+  <a href="jobs.html">Jobs &amp; Ausbildung</a>
+  <a href="foto-check.html">Foto-Check</a>
+</div>
+
+
+<main>
+<section class="u-hero ohne-bild"><div class="text"><a class="zurueck" href="index.html#k9">← Zurück zur Geschichte</a><p class="mono gelb hero-rein">Foto-Check</p><h1 class="hero-rein">Foto schicken. Angebot bekommen.</h1><p class="hero-rein">Ohne Termin, ohne Formular-Marathon. Fünf Fotos und ein Satz reichen für die erste Einschätzung.</p></div></section>
+<section class="u-teil"><div class="raster" style="align-items:start"><div class="s7 glas" id="fotocheck"><form style="display:grid;gap:16px">
+<div class="feld"><label>Ihre Fotos (<span id="fc-zahl">0</span> von 5)</label><div class="fotos">
+<label style="position:relative"><input type="file" accept="image/*"><span>Heiz-<br>keller</span></label>
+<label style="position:relative"><input type="file" accept="image/*"><span>Typen-<br>schild</span></label>
+<label style="position:relative"><input type="file" accept="image/*"><span>Heiz-<br>körper</span></label>
+<label style="position:relative"><input type="file" accept="image/*"><span>Haus<br>außen</span></label>
+<label style="position:relative"><input type="file" accept="image/*"><span>frei</span></label></div></div>
+<div class="feld"><label for="fc-text">Was sollen wir wissen?</label><textarea id="fc-text" placeholder="z. B. Ölheizung von 1998, 140 m², Fußbodenheizung im Bad"></textarea></div>
+<div class="feld"><label for="fc-tel">Telefon oder E-Mail</label><input id="fc-tel" type="text" required></div>
+<button class="btn">Foto-Check senden</button>
+<p class="quelle">Demo: Fotos bleiben in Ihrem Browser, nichts wird gesendet. Im echten Betrieb landet die Anfrage als Akte in der Werkakte-App.</p></form>
+<div class="fc-danke" hidden><h3 class="gelb">Angekommen.</h3><p>Wir melden uns am nächsten Werktag mit einer ersten Einschätzung und den nächsten Schritten.</p></div></div>
+<div class="s5" style="display:grid;gap:14px"><h3>Was wir daraus lesen</h3><div class="fakt"><b>Typenschild</b><span>Alter, Leistung und Art des Kessels.</span></div><div class="fakt"><b>Keller</b><span>Platz für Speicher und Innenmodul, Leitungswege.</span></div><div class="fakt"><b>Heizkörper</b><span>Größe und Bauart, erste Idee zur Vorlauftemperatur.</span></div><div class="fakt"><b>Außen</b><span>Standort fürs Außengerät, Abstand zum Nachbarn.</span></div></div></div></section>
+</main>
+
+<footer class="fuss">
+  <div class="spalten">
+    <div><a class="marke" href="index.html"><i></i>WARMHERZ</a><small>Heizung · Wärmepumpe · Bad. Bielefeld seit 1987.<br>Demo-Webseite von PROJEKT EX, fiktiver Betrieb.</small></div>
+    <div><b>Leistungen</b><a href="thermografie.html">Wärmebild-Check</a><a href="heizungstausch.html">Heizungstausch</a><a href="waermepumpe.html">Wärmepumpe</a><a href="fussbodenheizung.html">Fußbodenheizung</a><a href="wartung.html">Wartung &amp; Notdienst</a></div>
+    <div><b>Planen</b><a href="heizlast.html">Heizlast</a><a href="ablauf.html">Ablauf</a><a href="foerderung.html">Förderung</a><a href="foto-check.html">Foto-Check</a></div>
+    <div><b>Kontakt</b><a href="tel:+495210000000">0521 000 000 (Demo)</a><a href="foto-check.html">Anfrage per Foto</a><a href="jobs.html">Jobs &amp; Ausbildung</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+  </div>
+  <small>Alle Zahlen zu Förderung und Effizienz mit Stand-Datum und Quelle, ohne Gewähr. Personen, Firma und Bewertungen sind Beispiele dieser Demo.</small>
+</footer>
+<div class="demo-hinweis">Demo · fiktiv</div>
+<script src="assets/js/main.js?v=202611270947" defer></script>
+</body>
+</html>
